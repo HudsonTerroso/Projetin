@@ -225,3 +225,78 @@ header nav a:hover{
     margin-bottom: 5px;
     flex: 1.5;
 }
+
+.footer{
+    background-color: #333333;
+    padding: 60px 10%;
+}
+
+.containerFooter{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1400px;
+}
+
+.div1{
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+
+.mapa{
+    width: 250px;
+    height: 150px;
+    border-radius: 4px;
+}
+
+.listaFooter li{
+    color: #FFFFFF;
+    margin-bottom: 15px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.botaoFooter{
+    line-height: 20px;
+    width: 134px;
+    height: 30px;
+    font-size: 25px;
+    display: inline-block;
+    background-color: #DEB959;
+    text-decoration: none;
+    font-weight: 700;
+    padding-bottom: 8px;
+    padding-left: 10px;
+    vertical-align: middle;
+    flex-wrap: wrap;
+    white-space: nowrap;
+}
+
+.botaoFooter:link{
+    color: #333333;
+}
+
+.botaoFooter:visited{
+    color: #333333;
+}
+
+.botaoFooter:hover{
+    color: #333333;
+}
+
+.div2{
+    color: #FFFFFF;
+    text-align: center;
+}
+
+.div2 p{
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+.pataFooter{
+    width: 100px;
+    height: auto;
+}
