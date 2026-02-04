@@ -47,6 +47,10 @@ header nav a:hover{
     gap: 300px;
 }
 
+#imgHeader{
+    background-image: url(/assets/Group.png);
+}
+
 .listaNav img{
     margin-right: 42.81px;
 }
@@ -196,6 +200,7 @@ header nav a:hover{
 }
 
 .shadow-box{
+    border: 4px solid black;
     position: absolute;
     width: 100%;
     height: 100%;
