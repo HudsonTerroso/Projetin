@@ -45,10 +45,7 @@ header nav a:hover{
     list-style: none;
     justify-content: center;
     gap: 300px;
-}
-
-#imgHeader{
-    background-image: url(/assets/Group.png);
+    padding: 20px;
 }
 
 .listaNav img{
