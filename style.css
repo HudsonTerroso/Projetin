@@ -1,0 +1,166 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Darker Grotesque;
+}
+
+h2{
+    color: #DEB959;
+    font-weight: 700;
+    font-size: 48px;
+}
+
+header{
+    background-color: #85CDF5;
+}
+
+header nav a{
+    color: #333;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 30px;
+}
+
+header nav a:link{
+    color: #333;
+    text-decoration: none;
+}
+
+header nav a:visited{
+    color: #333;
+    text-decoration: none;
+}
+
+header nav a:hover{
+    text-decoration: underline;
+}
+
+.navPrincipal{
+    color: #333;
+}
+
+.listaNav{
+    display: flex;
+    align-items: center;
+    list-style: none;
+    justify-content: center;
+    gap: 300px;
+}
+
+.listaNav img{
+    margin-right: 42.81px;
+}
+
+.section1{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),url(/assets/loboSec1.png);
+    background-size: cover;
+    background-position: center 80%;
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: #FFFFFF;
+    padding: 20px;
+}
+
+.section1 p{
+    line-height: 25px;
+    opacity: 0.9;
+}
+
+.container1{
+   max-width: 1400px;
+}
+
+#texto1{
+    font-size: 96px;
+    margin-bottom: 100px;
+    font-weight: 700;
+}
+
+
+.paragrafo{
+    font-size: 30px;
+    line-height: 25px;
+    font-weight: 400;
+}
+
+.divisoria{
+    width: 99px;
+    height: 5px;
+    background-color: white;
+    margin: 20px auto;
+}
+
+.section2{
+    background-color: #2C5680;
+    height: 333px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.container2{
+    margin-left: 10%;
+    margin-right: 10%;   
+}
+
+.container2 p{
+    margin-top: 15px;
+    color: #FFFFFF;
+    font-size: 24px;
+}
+
+.section3{
+    padding: 60px 0;
+    background-color: #333;
+    min-height: 625px;
+    
+}
+
+.container3{
+    text-align: center;
+}
+
+.listaC3{
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+    list-style: none;
+    gap: 60px;
+    padding: 0;
+}
+
+.itemC3{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 200px;
+}
+
+.card{
+    border-radius: 50%;
+    background-color: #FFFFFF;
+    height: 131px;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-self: center;
+    margin-bottom: 20px;
+}
+
+.tituloC3{
+    color: #FFFFFF;
+    font-size: 34px;
+    line-height: 100%;
+}
+
+.textoC3{
+    margin-top: 20px;
+    color: #FFFFFF;
+    font-size: 26px;
+    font-weight: 400;
+    line-height: 20px;
+}
