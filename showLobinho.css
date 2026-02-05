@@ -1,0 +1,223 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Darker Grotesque;
+}
+
+h2{
+    color: #DEB959;
+    font-weight: 700;
+    font-size: 48px;
+}
+
+header{
+    background-color: #85CDF5;
+}
+
+header nav a{
+    color: #333;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 30px;
+}
+
+header nav a:link{
+    color: #333;
+    text-decoration: none;
+}
+
+header nav a:visited{
+    color: #333;
+    text-decoration: none;
+}
+
+header nav a:hover{
+    text-decoration: underline;
+}
+
+.navPrincipal{
+    color: #333;
+}
+
+.listaNav{
+    display: flex;
+    align-items: center;
+    list-style: none;
+    justify-content: center;
+    gap: 250px;
+    padding: 10px;
+}
+
+.listaNav img{
+    margin-right: 42.81px;
+}
+
+/*----------MAIN----------*/
+
+.body{
+    background-color: azure;
+}
+
+main{
+    margin: 30px 150px 100px 150px;
+}
+
+.corpo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#nome{
+    text-align: center;
+    font-weight: 900;
+    padding: 25px 0 50px 0;
+}
+
+
+.linha{
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+    width: 90%;
+}
+
+.coluna{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.caixa{
+    position: relative;
+    height: fit-content;
+}
+
+.shadow-box{
+    border: 4px solid black;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: #2C5680;
+    top: -20px;
+    left: -20px;
+    z-index: 1;
+}
+
+.caixa figure img{
+    position: relative;
+    z-index: 2;
+    width: 430px;
+    height: 328px;
+    display: block;
+    box-shadow: 5px 5px 15px rgba(0,0,0,0.2);
+}
+
+.botao{
+    display: flex;
+    flex-direction: rows;
+    justify-content: space-between;
+}
+
+#adotar, #excluir{
+    border:none;
+    padding: 15px 40px;
+    font-weight: 700;
+    color:azure;
+    font-size: 20px;
+    box-sizing: border-box;
+}
+
+#adotar{
+    background-color: #7AAC3A;
+}
+
+#excluir{
+    background-color: #DE5959;
+}
+
+#adotar:hover, #excluir:hover{
+    border: 1px solid #333333;
+}
+
+#descricao{
+    font: 400;
+    font-size: 20px;
+}
+
+/*----------FOOTER----------*/
+
+.footer{
+    background-color: #333333;
+    padding: 60px 10%;
+}
+
+.containerFooter{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1400px;
+}
+
+.div1{
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+
+.mapa{
+    width: 250px;
+    height: 150px;
+    border-radius: 4px;
+}
+
+.listaFooter li{
+    color: #FFFFFF;
+    margin-bottom: 15px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.botaoFooter{
+    line-height: 20px;
+    width: 134px;
+    height: 30px;
+    font-size: 25px;
+    display: inline-block;
+    background-color: #DEB959;
+    text-decoration: none;
+    font-weight: 700;
+    padding-bottom: 8px;
+    padding-left: 10px;
+    vertical-align: middle;
+    flex-wrap: wrap;
+    white-space: nowrap;
+}
+
+.botaoFooter:link{
+    color: #333333;
+}
+
+.botaoFooter:visited{
+    color: #333333;
+}
+
+.botaoFooter:hover{
+    color: #333333;
+}
+
+.div2{
+    color: #FFFFFF;
+    text-align: center;
+}
+
+.div2 p{
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+.pataFooter{
+    width: 100px;
+    height: auto;
+}
