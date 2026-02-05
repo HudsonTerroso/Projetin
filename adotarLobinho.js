@@ -57,6 +57,7 @@ async function alterarStatus(nome, idade, email) {
         }
 
         const lobo = await response.json();
+        window.location.href = `listarLobinhos.html`;
         return lobo;
     }catch(error){
         alert("Erro ao adotar o lobinho: ", error);
@@ -85,3 +86,4 @@ btnAdotar.addEventListener("click", () =>{
     
     alterarStatus(nome, idade, email);
 })
+
