@@ -1,0 +1,35 @@
+body{
+    background-color: #fff;
+}
+
+.quemSomosPage {
+    min-height: calc(100vh - 800px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 60px 20px;
+}
+
+.quemSomosBox{
+  width: min(900px, 100%);
+  text-align: center;
+}
+
+.quemSomosBox h1{
+  font-family: 'Roboto', sans-serif;
+  font-size: 60px;      /* ajuste fino depois */
+  font-weight: 300;    
+  color: #000;
+  margin-bottom: 40px;
+}
+
+.quemSomosBox p{
+  font-family: 'Darker Grotesque', sans-serif;
+  font-size: 22px;
+  font-weight: 400;
+  color: #000;
+  line-height: 1.6;
+  letter-spacing: 0.12em; 
+  max-width: 70ch;
+  margin: 0 auto;
+}
