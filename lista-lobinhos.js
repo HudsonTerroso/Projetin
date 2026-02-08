@@ -54,7 +54,23 @@ function criarCardLobinho(lobinhos) {
         const li = document.createElement("li");
         li.className = "listCard";
 
-        li.innerHTML = `
+        if (lobo.adotado){
+            li.innerHTML = `
+            <article class="cardLobinho">
+                <img class="imagemLobinho" src="${lobo.imagem}" alt="Foto do lobinho ${lobo.nome}">
+                <div class="dadosLobinho">
+                    <h3 class="h3">${lobo.nome}</h3>
+                    <a class="botaoAdotar adotado" href="#">Adotado</a>
+                    <p class="idade">Idade: ${lobo.idade} anos</p>
+                    <p class="descricaoLista">${lobo.descricao}</p>
+                    
+                </div>
+            </article>
+        `;
+
+        listCard.appendChild(li)
+        }else{
+            li.innerHTML = `
             <article class="cardLobinho">
                 <img class="imagemLobinho" src="${lobo.imagem}" alt="Foto do lobinho ${lobo.nome}">
                 <div class="dadosLobinho">
@@ -67,7 +83,8 @@ function criarCardLobinho(lobinhos) {
             </article>
         `;
 
-        listCard.appendChild(li);
+        listCard.appendChild(li)
+        }
     }
 }
 
@@ -84,5 +101,4 @@ async function inicializarPagina() {
 }
 
 inicializarPagina();
-
 

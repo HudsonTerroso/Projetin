@@ -99,16 +99,20 @@
   text-align: center;
   position: absolute;
   margin-left: 80px;
+  color: white;
 }
 
 .botaoAdotar:link{
   text-decoration: none;
-  color: white;
 }
 
 .botaoAdotar:visited{
   text-decoration: none;
-  color: white;
+}
+
+
+.adotado{
+  background-color: #7AAC3A;
 }
 
 span{
