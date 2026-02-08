@@ -58,7 +58,7 @@ excluir.addEventListener("click", ()=>{
     const resp = confirm(`Tem certeza que deseja exluir o lobinho? `);
     if(resp){
         excluirLobo();
-        window.location.href = `listarLobinhos.html`;
+        window.location.href = `lista-lobinhos.html`;
     }
 
 })
