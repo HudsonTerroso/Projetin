@@ -101,30 +101,40 @@ function paginacao(){
 
 
 function criarCardLobinho(lobinhos) {
-    listCard.innerHTML = ''; // Limpa a lista antes de renderizar
-
+    listCard.innerHTML = '';
     for (const lobo of lobinhos) {
         const li = document.createElement("li");
         li.className = "listCard";
 
-        // Definimos as variações baseadas no status de adoção
-        const classeAdotado = lobo.adotado ? "adotado" : "";
-        const textoBotao = lobo.adotado ? "Adotado" : "Adotar";
-
-        // Usamos as crases (backticks) para o template string
-        li.innerHTML = `
+        if (lobo.adotado) {
+            li.innerHTML = `
             <article class="cardLobinho">
                 <img class="imagemLobinho" src="${lobo.imagem}" alt="Foto do lobinho ${lobo.nome}">
                 <div class="dadosLobinho">
                     <h3 class="h3">${lobo.nome}</h3>
-                    <a class="botaoAdotar ${classeAdotado}" href="#">${textoBotao}</a>
+                    <a class="botaoAdotar adotado" href="#">Adotado</a>
                     <p class="idade">Idade: ${lobo.idade} anos</p>
                     <p class="descricaoLista">${lobo.descricao}</p>
                 </div>
             </article>
-        `;
+            `; 
 
-        listCard.appendChild(li);
+            listCard.appendChild(li);
+        } else {
+            li.innerHTML = `
+            <article class="cardLobinho">
+                <img class="imagemLobinho" src="${lobo.imagem}" alt="Foto do lobinho ${lobo.nome}">
+                <div class="dadosLobinho">
+                    <h3 class="h3">${lobo.nome}</h3>
+                    <a class="botaoAdotar" href="#">Adotar</a>
+                    <p class="idade">Idade: ${lobo.idade} anos</p>
+                    <p class="descricaoLista">${lobo.descricao}</p>
+                </div>
+            </article>
+            `; 
+
+            listCard.appendChild(li);
+        }
     }
 }
 
