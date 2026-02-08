@@ -11,5 +11,13 @@
   "license": "ISC",
   "devDependencies": {
     "json-server": "^0.17.4"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HudsonTerroso/Projetin.git"
+  },
+  "bugs": {
+    "url": "https://github.com/HudsonTerroso/Projetin/issues"
+  },
+  "homepage": "https://github.com/HudsonTerroso/Projetin#readme"
 }
