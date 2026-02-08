@@ -62,4 +62,5 @@ async function adicionarLobinho() {
 document.querySelector(".salvar").addEventListener("click", (e) => {
     e.preventDefault();
     adicionarLobinho();
+    window.location.href = `lista-lobinhos.html`
 });
