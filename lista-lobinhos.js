@@ -40,7 +40,7 @@ async function buscarLobinhos() {
     const response = await fetch(url);
 
     if (!response.ok) {
-        throw new Error(`Erro HTTP: ${resposta.status}`);
+        throw new Error(`Erro HTTP: ${response.status}`);
     }
 
     //json dos lobinhos
@@ -56,11 +56,12 @@ function criarCardLobinho(lobinhos) {
 
         li.innerHTML = `
             <article class="cardLobinho">
-                <img src="${lobo.imagem}" alt="Foto do lobinho ${lobo.nome}">
+                <img class="imagemLobinho" src="${lobo.imagem}" alt="Foto do lobinho ${lobo.nome}">
                 <div class="dadosLobinho">
-                    <h3>${lobo.nome}</h3>
-                    <p>Idade: ${lobo.idade} anos</p>
-                    <p>${lobo.descricao}</p>
+                    <h3 class="h3">${lobo.nome}</h3>
+                    <p class="idade">Idade: ${lobo.idade} anos</p>
+                    <p class="descricaoLista">${lobo.descricao}</p>
+                    <a class="botaoAdotar">Adotar</a>
                 </div>
             </article>
         `;
