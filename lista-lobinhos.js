@@ -59,9 +59,10 @@ function criarCardLobinho(lobinhos) {
                 <img class="imagemLobinho" src="${lobo.imagem}" alt="Foto do lobinho ${lobo.nome}">
                 <div class="dadosLobinho">
                     <h3 class="h3">${lobo.nome}</h3>
+                    <a class="botaoAdotar" href="#">Adotar</a>
                     <p class="idade">Idade: ${lobo.idade} anos</p>
                     <p class="descricaoLista">${lobo.descricao}</p>
-                    <a class="botaoAdotar">Adotar</a>
+                    
                 </div>
             </article>
         `;
@@ -83,3 +84,5 @@ async function inicializarPagina() {
 }
 
 inicializarPagina();
+
+
