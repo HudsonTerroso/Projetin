@@ -1,1 +1,1 @@
-Isabella Direito, Hudson Terroso e Daniel Tavares
+Isabella Direito, Hudson Terroso e Daniel De Arruda
